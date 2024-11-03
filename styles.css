@@ -2,7 +2,37 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-heading {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.paragraph-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.section-heading {
+    color: coral;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 /* Навигация */
@@ -18,11 +48,6 @@ nav ul {
 
 nav li {
     text-align: center;
-}
-
-nav a {
-    color: #333;
-    text-decoration: none;
 }
 
 nav a:hover {
